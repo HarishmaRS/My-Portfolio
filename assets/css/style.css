@@ -4,7 +4,74 @@
 :root {
     --primary: #0ef5a8e3;
     --primary-hover: #079868e3;
+    --secondary: #03dac0;
+    --secondary-color: #027060;
+    --secondary-hover: #039a83;
     --background-primary: #1b1f24;
-    --background-secondary: #22282f;
+    --background-secondary: #252b32;
     --font-family: 'Roboto', sans-serif;
 }
+body{
+    font-family: var(--font-family);
+}
+.header_section{
+    background-color: var(--background-primary);
+}
+.name{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.name span{
+    color: var(--secondary);
+}
+.navbar-toggler {
+    border: 2px solid #0ef5a8e3;
+    color: #0ef5a8e3;
+}
+.navMenu{
+    color: white;
+}
+.navMenu:active,.navMenu:hover{
+    color: var(--secondary);
+}
+.home_section{
+    background-color: var(--background-secondary);
+}
+.home_section p{
+    max-width: 700px;
+    min-width: 100px;
+}
+.fa-brands{
+    color: var(--secondary);
+}
+.fa-facebook:hover{
+    color: #316ff6;
+}
+.fa-instagram:hover{
+    color: #fbad50;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+.fa-github:hover{
+    color: #4078c0;
+}
+.downloadCV{
+    background-color: transparent;
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.downloadCV:hover{
+    background-color: var(--secondary-hover);
+    color: white;
+}
+
+
+
+
+
+/* @media only screen and (max-width: 600px){
+    .home_image{
+        display: none;
+    }
+} */
