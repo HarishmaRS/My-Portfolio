@@ -13,7 +13,9 @@
 }
 body{
     font-family: var(--font-family);
+    height: 2000px;
 }
+/* Header Section  */
 .header_section{
     background-color: var(--background-primary);
 }
@@ -34,6 +36,7 @@ body{
 .navMenu:active,.navMenu:hover{
     color: var(--secondary);
 }
+/* Home Section  */
 .home_section{
     background-color: var(--background-secondary);
 }
@@ -41,8 +44,11 @@ body{
     max-width: 700px;
     min-width: 100px;
 }
-.fa-brands{
+.fa-brands,.fa-regular{
     color: var(--secondary);
+}
+.fa-envelope:hover{
+    color: #f2a60c;
 }
 .fa-facebook:hover{
     color: #316ff6;
@@ -65,11 +71,62 @@ body{
     background-color: var(--secondary-hover);
     color: white;
 }
-
-
-
-
-
+/* About section  */
+.about_section{
+    background-color: var(--background-primary);
+    height: min-content;
+}
+.myImage {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid var(--secondary);
+    box-shadow: 2px 2px 5px var(--secondary-color);
+  }
+.About_heading{
+    color: white;
+}
+.About_heading span{
+    color: var(--secondary);
+}
+.tab_head:active{
+    background-color: var(--secondary-color);
+}
+.nav-pills .nav-link{
+    /* background-color: var(--secondary); */
+    color: var(--secondary);
+}
+.nav-pills .nav-link.active{
+    background-color: var(--secondary)!important;
+    color: #000;
+}
+/* .nav-pills .nav-link.active,
+        .nav-pills .nav-link:focus,
+        .nav-pills .nav-link:hover {
+            background-color: #db9b34 !important; 
+            color: #ffffff !important; 
+        } */
+.tab-content{
+    position: relative;
+    height: 350px;
+    padding: 5px 10px 5px 40px;
+    overflow-y: auto;
+}
+.tabContent span{
+    color: var(--secondary);
+}
+.tabContent .hr-line{
+    color: var(--secondary);
+}
+.tabContent p{
+    color: #a5a2a2;
+    font-size: 16px;
+}
+#contact a{
+    color: #a8a5a5;
+    text-decoration: none;
+    font-size: 16px;
+}
 /* @media only screen and (max-width: 600px){
     .home_image{
         display: none;
