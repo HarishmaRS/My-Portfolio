@@ -151,7 +151,14 @@ body{
 .project_box:hover{
     background-color: #141616;
     border: 1px solid var(--secondary);
-
+}
+.project_box a{
+    color: var(--secondary-hover);
+    text-decoration: none;
+}
+.project_box a:hover{
+    color: var(--secondary);
+    text-decoration: none;
 }
 .project_section span{
     color: var(--secondary);

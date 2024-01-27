@@ -183,6 +183,7 @@
                 <i class="fa-regular fa-address-book fa-xl mb-5"></i>
                 <h4>My Portfolio</h4>
                 <p>Created a Portfolio page using HTML, CSS, Bootstrap and js.</p>
+                <!-- <a href="./index.html">See my work here</a> -->
             </div>
             <div class="project_box m-3 p-4">
                 <i class="fa-solid fa-pizza-slice fa-xl mb-5"></i>
@@ -193,20 +194,22 @@
     </section>
     <!-- Contact section  -->
     <section class="contact_section" id="contact_section">
-        <div class="container text-center py-5">
-            <div class="input_box my-3">
-                <input type="text" class="form-control" placeholder="Full name">
+        <form name="contact_form">
+            <div class="container text-center py-5">
+                <div class="input_box my-3">
+                    <input type="text" class="form-control" placeholder="Full name">
+                </div>
+                <div class="input_box my-3">
+                    <input type="email" class="form-control" placeholder="Email id">
+                </div>
+                <div class="input_box my-3">
+                    <textarea class="form-control" rows="4" placeholder="Enter message briefly..."></textarea>
+                </div>
+                <div>
+                    <button class="btn submit_button mt-3 py-2 px-4">Send a message</button>
+                </div>
             </div>
-            <div class="input_box my-3">
-                <input type="email" class="form-control" placeholder="Email id">
-            </div>
-            <div class="input_box my-3">
-                <textarea class="form-control" rows="4" placeholder="Enter message briefly..."></textarea>
-            </div>
-            <div>
-                <button class="btn submit_button mt-3 py-2 px-4">Send a message</button>
-            </div>
-        </div>
+        </form>
 
     </section>
     <!-- footer  -->
@@ -222,12 +225,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <script>
-        function closeNavbar() {
-            document.getElementById('navbarContent').classList.remove('show');
-
-        }
-    </script>
+    <script src="./assets/script/script.js"></script>
 </body>
 
 </html>
