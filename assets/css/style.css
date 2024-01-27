@@ -184,6 +184,9 @@ body{
     color: #000;
     border: 1px solid var(--secondary-hover);
 }
+.contact_section span{
+    color: var(--secondary);
+}
 .footer_section{
     background-color: var(--background-secondary);
 }
