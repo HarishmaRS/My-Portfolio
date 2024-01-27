@@ -35,6 +35,7 @@ body{
 }
 .navMenu{
     color: white;
+    font-size: 20px;
 }
 .navMenu:active,.navMenu:hover{
     color: var(--secondary);
