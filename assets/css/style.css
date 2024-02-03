@@ -142,7 +142,7 @@ body{
 }
 .project_box{
     background-color: var(--background-primary);
-      max-width: 100%;
+      max-width: 350px;
       min-width: 250px;
       flex: 1;
       border-radius: 15px;

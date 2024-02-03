@@ -2,6 +2,15 @@ function closeNavbar() {
     document.getElementById('navbarContent').classList.remove('show');
 
 }
+function myPortfolio(){
+    alert('The page you currently viewing is the portfolio page created by using HTML, CSS, Bootstrap, JavaScript. Thank you!!!')
+}
+
+// Initialize tooltip 
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)})
+
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwEPNZbPhlshzHmgtmRDnHw6d-jlW60dkzlHpisG1H2B7Yo4bADFTnSkaGqKn2V4EvB4Q/exec'
         const form = document.forms['contact_form']
